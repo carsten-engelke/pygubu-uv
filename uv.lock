@@ -1,0 +1,23 @@
+version = 1
+revision = 3
+requires-python = ">=3.11"
+
+[[package]]
+name = "pygubu"
+version = "0.38.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/6d/5f/04e69b8bd10e51e0dfada16dc10621ef8058a2c3c4ccb564d3d80160e526/pygubu-0.38.2.tar.gz", hash = "sha256:7e33eb566dd1a1e198185921b798c9ca44f7646f7b5673e94cad1c996b595a1c", size = 169742, upload-time = "2025-07-26T00:20:39.359Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/21/e7/93c27b69c981fde98b17f35d169cb556f7dc78623813e15805442f92e2a5/pygubu-0.38.2-py3-none-any.whl", hash = "sha256:31b5aca79c904e4af245d9fb52cd0516d3549dd6a0dbeb374533c9f5057b18ad", size = 214642, upload-time = "2025-07-26T00:20:37.225Z" },
+]
+
+[[package]]
+name = "pygubu-uv"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "pygubu" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pygubu", specifier = ">=0.38.2" }]
