@@ -1,6 +1,6 @@
-# Anleitung: Pygubu-App mit `uv` erstellen, bauen, testen und veröffentlichen
+# Anleitung: Kleine Pygubu-App mit `uv` erstellen, bauen, testen und veröffentlichen
 
-Diese Schritt-für-Schritt-Anleitung zeigt, wie du eine neue Pygubu-App mit dem Tool [`uv`](https://github.com/astral-sh/uv) aufsetzt.  
+Diese Schritt-für-Schritt-Anleitung zeigt, wie du eine neue "Pseudo-Single-File" Pygubu-App mit dem Tool [`uv`](https://github.com/astral-sh/uv) aufsetzt.
 Wir verwenden **ausschließlich** die von dir genannten `uv`-Befehle (`init`, `build`, `publish`, `run`).  
 **uv pip** wird an keiner Stelle verwendet.
 
