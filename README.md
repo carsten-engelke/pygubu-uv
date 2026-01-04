@@ -39,7 +39,7 @@ uv add pygubu
 ## 3. Beispiel-Code für eine einfache Pygubu-App
 
 Erstelle im Projektverzeichnis eine ui-Datei mit dem `pygubu-designer`, z.B. `src/meine_pygubu_app/meine_pygubu_app.ui`.
-Lege den Modulnamen fest (er wird später mit `ui` ergänzt die GUI-Klasse enthalten,z.B. `meine_pygubu_app`. Vergebe einen beliebigen Projektnamen und eine Beschreibung und lege den Klassennamen für fur GUI fest, z.B. `MeineApp`). Erstelle die die Applikation durch Click auf `Code generieren` und benenne die Python-Datei mit dem Modulnamen in `__main__.py` um (`meine_pygubu_app.py` -> `__main__.py`). 
+Lege den Modulnamen fest (er wird später mit `ui` ergänzt die GUI-Klasse enthalten,z.B. `meine_pygubu_app`. Vergebe einen beliebigen Projektnamen und eine Beschreibung und lege den Klassennamen für fur GUI fest, z.B. `MeineApp`). Erstelle die die Applikation durch Click auf `Code generieren` und benenne die Python-Datei mit dem Modulnamen in `__main__.py` um (`meine_pygubu_app.py` -> `__main__.py`). **CAVE: Bei grösseren Projekten müssen die vom package nach außen sichtbaren Funktionen, Variablen, Klassen etc. in der `__init__.py` Datei beschrieben werden. Hier werden zur Nutzbarkeit dann relative imports verwendet (siehe z.B. Projekt sheetah)**
 
 **Achtung:** Passe deinen Code an, sodass es eine Funktion `main()` gibt, z.B.:
 
